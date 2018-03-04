@@ -27,6 +27,10 @@
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'howling-creative' ), 'howling-creative', '<a href="https://santiagoenciso.com">Santiago Enciso</a>' );
 				?>
 		</div><!-- .site-info -->
+		<div class="custom-footer">
+			<?php esc_html_e('Custom Footer Text', 'howling-creative'); ?>
+
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
